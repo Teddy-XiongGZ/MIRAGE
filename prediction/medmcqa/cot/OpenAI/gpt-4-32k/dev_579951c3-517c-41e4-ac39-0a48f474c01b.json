@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Infant mortality rate is calculated as the number of deaths of infants under one year old in a given year per 1,000 live births in the same year. In this case, we have 56 deaths before 28 days of life and 34 deaths between 28 days and 1 year. So, the total infant deaths are 56 + 34 = 90. The number of live births is the total births minus those who showed no signs of life at birth, which is 456 - 56 = 400. Therefore, the infant mortality rate is (90/400) * 1000.\", \"answer_choice\": \"B. 225\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The Snellen chart is designed to be read from a distance of 6 meters. The largest letter on the chart is the 6/60 line. According to Document [0], at exactly 6 meters' distance from the patient, the letters on the 6/6 line shall subtend 5 minutes of arc. The topmost (6/60) 'E' should be 87.3 mm tall. The eye should be at a distance 68.76 times the height of the top (6/60) letter. This means that the largest letter on the chart subtends a larger angle than the 5 minutes of arc subtended by the 6/6 line. The exact angle is not given in the documents, but it would be larger than 5 minutes of arc.\", \"answer_choice\": \"D. 60 minutes\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The mean and standard deviation are statistical measures that require numerical data. Nominal scale data is categorical and cannot be used to calculate mean or standard deviation. Dichotomous scale is a type of nominal scale with only two categories, so it also cannot be used for these calculations. Ordinal scale data can be ranked, but the intervals between the ranks may not be equal, which makes it unsuitable for calculating mean and standard deviation. Interval/Ratio scale data, on the other hand, is numerical and the intervals between values are equal. This makes it suitable for calculating mean and standard deviation.\", \"answer_choice\": \"C\"}"
+]

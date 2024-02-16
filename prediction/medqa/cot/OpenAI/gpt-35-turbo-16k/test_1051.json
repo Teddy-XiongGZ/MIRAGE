@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To calculate the maintenance dose, we need to use the formula: Maintenance dose = (desired plasma concentration * clearance * dosing interval) / bioavailability. First, we need to calculate the clearance. Clearance is equal to the volume of distribution divided by the drug half-life. So, clearance = 14.3 liters / 2 hours = 7.15 liters/hour. Next, we can substitute the values into the formula: Maintenance dose = (15 mg/L * 7.15 L/hour * 8 hours) / 0.5. Simplifying the equation, we get: Maintenance dose = 15 mg/L * 7.15 L/hour * 16 / 0.5 = 1716 mg. Therefore, the maintenance dose that should be given to this patient every 8 hours is 1716 milligrams.\", \"answer_choice\": \"C. 1200 milligrams\"}"
+]

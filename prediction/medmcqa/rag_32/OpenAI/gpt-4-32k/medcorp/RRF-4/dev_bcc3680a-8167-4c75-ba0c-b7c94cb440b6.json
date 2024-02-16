@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Confounding is a bias that occurs when the effect of one variable on an outcome is mixed with the effect of another variable. To remove confounding, several methods are used. Randomization is a method used to control confounding by randomly assigning subjects to different groups. Matching is another method where subjects are matched based on certain characteristics to control for those characteristics. Blinding is a method where information about the treatment is hidden from participants or investigators to prevent bias. However, random selection is a method used to select a sample from a population, and it does not directly control for confounding.\", \"answer_choice\": \"B\"}"
+]

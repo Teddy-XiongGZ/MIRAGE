@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To find the blood pressure value above which 95 percent of people fall, we need to calculate the value that is 1.645 standard deviations above the mean. The formula for calculating the value is: Value = Mean + (1.645 * Standard Deviation). Substituting the given values, we get: Value = 125 + (1.645 * 10) = 125 + 16.45 = 141.45. Therefore, 95 percent of people would have blood pressure above 141.45 mm Hg.\", \"answer_choice\": \"D\"}"
+]

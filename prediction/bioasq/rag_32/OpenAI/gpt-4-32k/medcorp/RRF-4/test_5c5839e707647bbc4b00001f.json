@@ -1,0 +1,3 @@
+[
+    "Request timed out: HTTPSConnectionPool(host='bionlp-gpt4.openai.azure.com', port=443): Read timed out. (read timeout=600)"
+]

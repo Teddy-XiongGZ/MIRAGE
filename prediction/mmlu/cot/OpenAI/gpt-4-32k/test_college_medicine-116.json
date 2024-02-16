@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Signal Detection Theory is a means to quantify the ability to discern between informative signals in an otherwise noisy environment. In this scenario, the signal is the light from the tower and the pilot is the observer. If the pilot could see the light, it would be a 'hit'. If the pilot said he saw the light when it wasn't there, it would be a 'false alarm'. If the pilot correctly said he didn't see the light when it wasn't there, it would be a 'correct rejection'. In this case, the light was there but the pilot couldn't see it, so it's a 'miss'.\", \"answer_choice\": \"B\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The question is asking about the change in resistance to blood flow in a blood vessel due to occlusion. According to Poiseuille's law, resistance to flow is proportional to the fourth power of the radius of the vessel. If the diameter of the vessel is reduced by 50%, the radius is also reduced by 50%. Therefore, the resistance to flow would increase by a factor of (1/0.5)^4 = 2^4 = 16.\", \"answer_choice\": \"B\"}"
+]

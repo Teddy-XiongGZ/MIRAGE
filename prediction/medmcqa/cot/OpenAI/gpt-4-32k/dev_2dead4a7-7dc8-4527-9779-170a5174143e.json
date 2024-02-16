@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The GLOBOCAN project collects data on cancer incidence, mortality, and prevalence worldwide. The data is age-specific, meaning it is broken down by age groups. However, it also includes other factors. Demographics would be too broad and would include factors like income, education, etc., which GLOBOCAN does not collect. Growth rate is not a factor that GLOBOCAN collects. Gender, on the other hand, is a factor that GLOBOCAN collects, as it is important in understanding the incidence of different types of cancer.\", \"answer_choice\": \"C. Age specific with gender\"}"
+]

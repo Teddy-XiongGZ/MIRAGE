@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Specificity is a measure of a test's ability to correctly identify those without the disease. In this case, it is calculated as the number of true negatives (those without the disease who test negative) divided by the sum of true negatives and false positives (those without the disease who test positive). Here, the true negatives are the patients without Parkinson's disease who tested negative, which is 600 (total without PD) - 20 (false positives) = 580. The false positives are the 20 patients without Parkinson's disease who tested positive. So, the specificity is 580 / (580 + 20).\", \"answer_choice\": \"D\"}"
+]

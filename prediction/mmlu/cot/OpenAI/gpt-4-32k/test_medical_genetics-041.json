@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The Hardy-Weinberg equilibrium is a principle stating that the genetic variation in a population will remain constant from one generation to the next in the absence of disturbing factors. For X-linked recessive disorders, the frequency of the disorder in males is equal to the frequency of the allele in the population (q). So, if the incidence in males is 1 in 100, then q = 1/100 = 0.01. The incidence of affected homozygous females is equal to q^2, which is (0.01)^2 = 0.0001, or 1 in 10,000.\", \"answer_choice\": \"C\"}"
+]

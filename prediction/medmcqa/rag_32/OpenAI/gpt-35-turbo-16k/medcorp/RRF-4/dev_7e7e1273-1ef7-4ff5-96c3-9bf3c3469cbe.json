@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The law of pulse oximetry is based on the Beer Lambert's law. According to the Beer Lambert's law, the absorption of light by a substance is directly proportional to the concentration of the substance and the path length of the light through the substance. In pulse oximetry, the oximeter probe emits pulses of light (red and infrared) through the tissue, and the detector measures the differences in the absorption of these wavelengths by oxygenated and deoxygenated hemoglobin. Based on the differences in absorption, the oximeter calculates the oxygen saturation.\", \"answer_choice\": \"D\"}"
+]

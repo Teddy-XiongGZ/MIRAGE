@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The question is asking for the 5th percentile of the haemoglobin levels in pregnant females. This is a statistics problem and can be solved using the formula for the z-score, which is Z = (X - \u03bc) / \u03c3. The Z value for the 5th percentile is approximately -1.645. We can rearrange the formula to solve for X, the haemoglobin level. X = Z\u03c3 + \u03bc. Substituting the given values into the formula gives X = -1.645*2 + 10.6.\", \"answer_choice\": \"A. 7.32\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"SDS-PAGE is a method used to separate proteins based on their molecular weight. The detergent SDS is used in this process to denature the proteins, meaning it unfolds them into long, straight molecules. This is mentioned in Document [23] and Document [28]. The SDS molecules, which are negatively charged, bind to the proteins in a ratio roughly proportional to the protein's length or mass. This gives all proteins a uniform charge-to-mass ratio, allowing them to be separated solely based on their size or length of the primary sequence, as stated in Document [5] and Document [29]. Therefore, the proteins are not separated based on their tertiary structure or by generating linear fragments.\", \"answer_choice\": \"B\"}"
+]

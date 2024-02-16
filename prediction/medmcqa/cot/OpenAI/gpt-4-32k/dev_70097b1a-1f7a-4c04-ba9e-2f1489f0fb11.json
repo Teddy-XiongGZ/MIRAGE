@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The data provided has a clear outlier, which is the value 5000. This value is significantly higher than the rest of the data points and will skew the arithmetic mean. The mode is not appropriate as it is the value that appears most frequently, which is not applicable in this case. The geometric mean is not appropriate as it is used when dealing with percentages, rates or indices. The median, which is the middle value when the data is arranged in ascending order, is the most appropriate measure of central tendency in this case as it is not affected by outliers.\", \"answer_choice\": \"C\"}"
+]

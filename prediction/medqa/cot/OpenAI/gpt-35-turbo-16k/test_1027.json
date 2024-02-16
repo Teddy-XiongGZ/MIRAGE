@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To calculate the loading dose of heparin, we need to determine the total dose required based on the volume of distribution and the target peak plasma concentration. The volume of distribution is given as 60 mL/kg and the patient's weight is 50 kg. Therefore, the total volume of distribution for this patient would be 60 mL/kg x 50 kg = 3000 mL. The target peak plasma concentration is given as 0.5 units/mL. To calculate the loading dose, we multiply the total volume of distribution by the target peak plasma concentration: 3000 mL x 0.5 units/mL = 1500 units.\", \"answer_choice\": \"B. 1,500 units\"}"
+]

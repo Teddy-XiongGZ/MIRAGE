@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Yes, machine learning methods have been used to predict the severity of major depressive disorder (MDD). Document [15] mentions the use of machine learning algorithms to predict the severity of depressive symptoms based on upper body motion captured by RGB-depth sensors. Document [22] discusses the use of machine learning algorithms to predict early symptom improvement in MDD based on resting EEG data. Document [28] describes the construction of a machine learning model for predicting patients with MDD based on transcriptomic data. Therefore, based on the provided documents, the answer is A. yes.\", \"answer_choice\": \"A\"}"
+]

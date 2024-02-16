@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The Glasgow Coma Scale (GCS) is a neurological scale that aims to give a reliable, objective way of recording the conscious state of a person. It is composed of three parameters: Best Eye Response (E), Best Verbal Response (V), and Best Motor Response (M). The patient is opening his eyes on verbal command, which scores 3 on the Eye Response. The patient is on mechanical ventilation, so we cannot assess verbal response, which scores 1 by default. The patient moves all his 4 limbs spontaneously, which scores 6 on the Motor Response. Adding these up, we get a GCS score of 10.\", \"answer_choice\": \"B\"}"
+]

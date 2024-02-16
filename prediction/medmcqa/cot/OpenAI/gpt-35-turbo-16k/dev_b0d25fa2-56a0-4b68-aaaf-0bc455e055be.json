@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To calculate the standard error, we need to divide the standard deviation by the square root of the sample size. In this case, the sample size is 100. So, the standard error can be calculated as follows: standard error = standard deviation / square root of sample size. Given that the standard deviation is 1 and the sample size is 100, the standard error would be 1 / square root of 100. The square root of 100 is 10. Therefore, the standard error would be 1 / 10 = 0.1.\", \"answer_choice\": \"B\"}"
+]

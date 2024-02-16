@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To calculate the dose in grams, we need to multiply the weight of the person (62 kg) by the dose per kg (15 mg/kg). First, convert the dose to grams by dividing by 1000. Then, multiply the weight by the dose per kg. Finally, round the answer to the nearest whole number.\", \"answer_choice\": \"A\"}"
+]

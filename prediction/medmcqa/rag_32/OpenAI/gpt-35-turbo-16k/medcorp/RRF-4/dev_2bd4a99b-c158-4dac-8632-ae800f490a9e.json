@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Since the investigator wants to study the association between a categorical variable (maternal intake of iron supplements) and a continuous variable (birth weights), the appropriate statistical test of hypothesis would be an independent t-test (choice B). This test is used to compare the means of two independent groups. In this case, the investigator can compare the mean birth weights of newborns whose mothers took iron supplements with those whose mothers did not take iron supplements.\", \"answer_choice\": \"B\"}"
+]

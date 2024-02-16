@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The mean is the average of all the scores, while the median is the middle value when the scores are arranged in ascending order. Since the highest score was entered incorrectly as 85 instead of 58, the mean will be affected because it takes into account all the scores. The median, on the other hand, is not affected by extreme values, so it will remain the same. Therefore, the answer is A. Increased mean, decreased median.\", \"answer_choice\": \"A\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The tumor classification system used to determine the stage of cancer is based on the size and extent of the tumor (T), the involvement of nearby lymph nodes (N), and the presence or absence of distant metastasis (M). In this case, the tumor is classified as T3, indicating a larger tumor size and/or involvement of nearby structures. The N2 classification indicates the involvement of regional lymph nodes. The M0 classification indicates no evidence of distant metastasis. Based on this information, the tumor represented as T3N2M0 would be classified as Stage III.\", \"answer_choice\": \"C. Stage III\"}"
+]

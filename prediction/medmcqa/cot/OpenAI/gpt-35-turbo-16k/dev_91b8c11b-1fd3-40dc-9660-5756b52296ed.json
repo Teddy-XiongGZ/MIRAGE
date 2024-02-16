@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The statistical 'Q' test is commonly used to determine outliers in a dataset. It is a non-parametric test that compares the differences between adjacent values in a dataset. The test calculates the sum of the absolute differences between adjacent values and compares it to a critical value to determine if there are any outliers. Therefore, the correct answer is B. To determine outliers.\", \"answer_choice\": \"B\"}"
+]

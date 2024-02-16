@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"A non-parametric test is a type of statistical test that does not assume our data follows a specific distribution. Pearson correlation, ANOVA, and Student t test are parametric tests because they assume that the data follows a certain distribution, usually a normal distribution. On the other hand, the Mann-Whitney test is a non-parametric test because it does not make any assumptions about the distribution of the data.\", \"answer_choice\": \"C\"}"
+]

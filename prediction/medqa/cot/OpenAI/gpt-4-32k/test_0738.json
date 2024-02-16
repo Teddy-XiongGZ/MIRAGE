@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"First, we need to calculate the number of people who got infected with hepatitis A. This is done by multiplying the total number of individuals who dined at the restaurant by the incidence rate. So, 500 * 0.25 = 125 people got infected. The case-fatality rate is the proportion of deaths among the incident cases. So, we divide the number of deaths by the number of infected individuals and multiply by 100 to get the percentage. So, (5/125) * 100 = 4%\", \"answer_choice\": \"A\"}"
+]

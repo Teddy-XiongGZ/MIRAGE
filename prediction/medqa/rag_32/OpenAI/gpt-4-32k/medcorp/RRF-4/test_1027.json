@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The loading dose of a drug can be calculated using the formula: Loading dose = Volume of distribution x Desired plasma concentration. The volume of distribution for heparin is given as 60 mL/kg. The patient's weight is 50 kg. Therefore, the volume of distribution for this patient is 60 mL/kg x 50 kg = 3000 mL. The desired plasma concentration is given as 0.5 units/mL. Therefore, the loading dose = 3000 mL x 0.5 units/mL = 1500 units.\", \"answer_choice\": \"B\"}"
+]

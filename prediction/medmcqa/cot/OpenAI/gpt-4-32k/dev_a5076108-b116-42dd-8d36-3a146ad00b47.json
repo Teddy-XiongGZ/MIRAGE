@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The question is asking about a type of flow where a material turns to liquid when a critical shear stress is applied. This is not a characteristic of a Newtonian body, which has a linear relationship between shear stress and shear rate. It's also not a characteristic of a Dilatant, which becomes more viscous under shear, or a Pseudoplastic, which becomes less viscous under shear. However, a Bingham body does not flow until a certain shear stress, known as the yield stress, is exceeded. After this point, it behaves like a Newtonian fluid. Therefore, the answer is Bingham body.\", \"answer_choice\": \"B\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To calculate the range for a 90% confidence interval, we need to find the margin of error and then add and subtract it from the sample mean. The margin of error can be calculated using the formula: margin of error = (z-score) * (standard deviation / square root of sample size). The z-score for a 90% confidence interval is approximately 1.645. Given that the sample mean is 85 ml/min, the standard deviation is 25, and the sample size is 100, we can calculate the margin of error as (1.645) * (25 / sqrt(100)) = 4.1125. Adding and subtracting the margin of error from the sample mean gives us the range for the 90% confidence interval as 85 + 4.1125 = 89.1125 and 85 - 4.1125 = 80.8875.\", \"answer_choice\": \"B. 80-90\"}"
+]

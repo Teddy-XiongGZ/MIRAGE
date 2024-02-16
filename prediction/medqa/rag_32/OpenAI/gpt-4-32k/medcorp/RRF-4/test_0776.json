@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The number needed to treat (NNT) is a measure that indicates how many patients need to be treated with a particular therapy for one patient to benefit. It is calculated as the inverse of the absolute risk reduction (ARR). ARR is the difference in the outcomes between the control group and the treatment group. In this case, the cure rate in the treatment group (drug A) is 190/250 = 0.76 and in the control group (standard therapy) is 165/250 = 0.66. The ARR is therefore 0.76 - 0.66 = 0.1. The NNT is the inverse of this, which is 1/0.1 = 10.\", \"answer_choice\": \"B\"}"
+]

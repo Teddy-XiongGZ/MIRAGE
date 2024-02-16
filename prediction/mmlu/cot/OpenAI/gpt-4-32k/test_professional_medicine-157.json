@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"In this scenario, the study size is being reduced from 1000 to 500 patients. A smaller sample size generally decreases the power of a study, which is the probability that it will correctly reject a false null hypothesis (i.e., detect a difference when one truly exists). This is because smaller studies are less likely to detect a true effect when one exists, leading to a higher chance of a type II error (failing to reject a false null hypothesis). Therefore, the chance of a type II error would most likely increase.\", \"answer_choice\": \"B. Chance of a type II error\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"To find the range in which 10P of 95% of the population would be lying, we need to calculate the confidence interval. The confidence interval can be calculated by adding and subtracting the margin of error from the mean. The margin of error is equal to 1.96 times the standard deviation divided by the square root of the sample size. In this case, the margin of error is (1.96 * 10) / sqrt(400) = 1.96 * 10 / 20 = 0.98. Therefore, the confidence interval is (25 - 0.98, 25 + 0.98) = (24.02, 25.98). So, the range in which 10P of 95% of the population would be lying is 24.02 to 25.98 mm Hg.\", \"answer_choice\": \"C. 24-26 mm Hg\"}"
+]

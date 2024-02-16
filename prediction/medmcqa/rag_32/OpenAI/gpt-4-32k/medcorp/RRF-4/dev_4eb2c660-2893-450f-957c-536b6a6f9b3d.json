@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Feed-forward mechanism is a type of control system that responds to its control signal in a pre-defined way without responding to how the load reacts. It is based on knowledge about the process in the form of a mathematical model of the process and knowledge about, or measurements of, the process disturbances. Among the given options, salivation on smelling food is a feed-forward mechanism. This is because the smell of food triggers the salivation process in anticipation of eating, even before the food is actually consumed. This is a pre-defined response that does not depend on the actual consumption of the food (the load).\", \"answer_choice\": \"C\"}"
+]

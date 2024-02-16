@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Positive predictive value (PPV) is the probability that subjects with a positive screening test truly have the disease. Negative predictive value (NPV) is the probability that subjects with a negative screening test truly don't have the disease. If the prevalence of the disease decreases, then there will be fewer true positive cases, and more true negative cases. This will decrease the PPV because there are fewer true positives out of all the positive results. On the other hand, the NPV will increase because there are more true negatives out of all the negative results.\", \"answer_choice\": \"B. PPV decreases, NPV increases\"}"
+]

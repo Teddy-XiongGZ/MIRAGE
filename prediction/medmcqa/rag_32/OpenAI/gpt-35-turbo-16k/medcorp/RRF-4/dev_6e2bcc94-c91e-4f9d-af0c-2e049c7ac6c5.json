@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Since the systolic blood pressure in normal healthy males of age group 40-60 has a normal distribution with a mean of 130, we can use the properties of the normal distribution to determine the percentage of people with systolic blood pressure more than 130. We know that approximately 68% of the data falls within one standard deviation of the mean, 95% falls within two standard deviations, and 99.7% falls within three standard deviations. Therefore, the percentage of people with systolic blood pressure more than 130 is approximately 100% - 68% = 32%. So, the answer is 32, which is closest to option D. 25.\", \"answer_choice\": \"D\"}"
+]

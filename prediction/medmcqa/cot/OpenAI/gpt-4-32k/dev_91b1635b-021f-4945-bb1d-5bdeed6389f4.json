@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"In a left-skewed distribution, the mean is less than the median, and the median is less than the mode. This is because the tail of the distribution is on the left side, so it pulls the mean towards the lower values. The mode is the most frequent value, which is on the right side of the peak. The median is the middle value, which is also to the right of the mean in a left-skewed distribution.\", \"answer_choice\": \"B. Mean < Mode\"}"
+]

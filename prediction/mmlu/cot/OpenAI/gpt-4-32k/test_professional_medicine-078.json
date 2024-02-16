@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Sensitivity is a measure of how well a test correctly identifies those with a disease. It is calculated as the number of true positives divided by the sum of true positives and false negatives. In this case, true positives are the men who tested positive for prostate cancer and actually have it. False negatives are those who tested negative but actually have the disease. To calculate sensitivity, we need to know the number of men who tested positive and actually have the disease (true positives) and the number of men who tested negative but actually have the disease (false negatives). Therefore, we need to know the results of prostate biopsies of men with test results equal to or below 5 ng/mL.\", \"answer_choice\": \"D\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The maximum recommended dose for dental X-ray operators is typically measured in milliroentgen (mR). To determine the maximum recommended dose in a week, we need to consider the safe exposure limits for radiation. The recommended annual dose limit for radiation workers is 5,000 millirem (mrem) or 50 millisievert (mSv). Assuming a dental X-ray operator works 50 weeks in a year, we can calculate the maximum recommended dose per week by dividing the annual limit by 50. Therefore, the maximum recommended dose for a dental X-ray operator in a week would be 5,000 mrem / 50 weeks = 100 mrem or 1 milliroentgen (mR).\", \"answer_choice\": \"A\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"A Type I error is when we reject a true null hypothesis, meaning we find a significant association when there isn't one. A Type II error is when we fail to reject a false null hypothesis, meaning we don't find a significant association when there is one. Random error is a statistical fluctuation that may or may not cause a significant association. Systematic error is a consistent, repeatable error associated with faulty equipment or a flawed experiment design. In this case, the study didn't find a significant association when there truly is one, which is a Type II error.\", \"answer_choice\": \"B\"}"
+]

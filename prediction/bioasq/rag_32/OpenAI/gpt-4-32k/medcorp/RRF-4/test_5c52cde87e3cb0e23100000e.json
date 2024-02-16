@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"Document 0 discusses the development of a pipeline to recover allele sequences from sequence capture data and demonstrates the utility of integrating these allele sequences to analyses performed under the multispecies coalescent model. The document suggests that analyzing allele sequences leads to more accurate estimates of tree topology and divergence times than the more common approach of using contig sequences. This implies that allele phasing does improve the phylogenetic utility of ultraconserved elements.\", \"answer_choice\": \"A\"}"
+]

@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The hypothalamus regulates the release of hormones from the pituitary gland through inhibitory control. Document [0] mentions that dopamine, which is produced by the hypothalamus, inhibits the secretion of prolactin. Document [4] also states that prolactin secretion is controlled by hypothalamic dopamine. Therefore, prolactin is under inhibitory control of the hypothalamus. On the other hand, document [0] mentions that somatostatin, which is produced by the hypothalamus, inhibits the secretion of growth hormone (GH). Therefore, GH is also under inhibitory control of the hypothalamus. Based on this information, the answer is D. Both GH and prolactin.\", \"answer_choice\": \"D\"}"
+]

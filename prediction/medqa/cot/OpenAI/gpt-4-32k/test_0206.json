@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The LOD (logarithm of odds) score is a statistical measure that geneticists use to determine whether two loci are likely to lie near each other on a chromosome and are therefore likely to be inherited together. A LOD score of 3 or more is generally taken to indicate that the two loci are close together, or linked. A LOD score of less than 1 suggests that the loci are not linked. A LOD score of 2 is considered suggestive of linkage, but not definitive. A LOD score of 0 would suggest no evidence of linkage.\", \"answer_choice\": \"C. LOD Score > 3\"}"
+]

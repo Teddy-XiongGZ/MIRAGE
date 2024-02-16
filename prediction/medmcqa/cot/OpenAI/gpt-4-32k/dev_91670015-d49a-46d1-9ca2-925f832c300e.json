@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The formula for the standard error of the mean is the standard deviation divided by the square root of the sample size. The formula for the standard error of the difference of means is the square root of the sum of the squares of the standard errors of the two means. The formula for the standard error of proportions is the square root of (p(1-p)/n), where p is the proportion and n is the sample size. The formula for the standard error of the difference in proportions is the square root of the sum of the variances of the two proportions. The given formula does not match any of these exactly, but it is closest to the standard error of proportions.\", \"answer_choice\": \"C\"}"
+]

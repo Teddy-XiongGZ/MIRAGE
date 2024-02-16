@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"NK cells are effective against viral infected cells only if the cell with infection is unable to express MHC class I proteins. This is because NK cells have inhibitory receptors that recognize MHC class I molecules on healthy cells, which suppresses their killing activity. However, virus-infected cells may downregulate or prevent the export of MHC class I molecules, making them less able to inhibit NK cells. As a result, NK cells can recognize and kill these infected cells.\", \"answer_choice\": \"B\"}"
+]

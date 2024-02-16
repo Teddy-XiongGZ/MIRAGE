@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"We are comparing the means of two independent groups (height of children in two different classes). The unpaired t-test is used to compare the means of two independent groups. ANOVA is used when comparing the means of more than two groups. Chi-square is used for categorical data. Coefficient of variance is a measure of relative variability.\", \"answer_choice\": \"A\"}"
+]

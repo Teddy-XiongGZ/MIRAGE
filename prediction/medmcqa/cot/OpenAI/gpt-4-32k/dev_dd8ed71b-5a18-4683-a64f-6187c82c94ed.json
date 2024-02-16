@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The daily admission of head injury patients in a trauma care centre is a countable event that occurs over a specific interval of time. This makes it a discrete random variable. Normal distribution is used for continuous data, so it's not suitable here. Binomial distribution is used when there are only two possible outcomes, which is not the case here. Uniform distribution assumes that all outcomes are equally likely, which is not necessarily true for patient admissions. Poisson distribution is used for events that occur independently and at a constant average rate, which fits the description of patient admissions.\", \"answer_choice\": \"D. Poisson distribution\"}"
+]

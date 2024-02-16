@@ -1,0 +1,3 @@
+[
+    "The sensitivity and specificity of a test are calculated using the following formulas: Sensitivity = True Positive / (True Positive + False Negative) Specificity = True Negative / (True Negative + False Positive) From the data given, we have: True Positive (TP) = 27 (Test Positive and Diseased) False Negative (FN) = 3 (Test Negative and Diseased) True Negative (TN) = 95 (Test Negative and Non-diseased) False Positive (FP) = 5 (Test Positive and Non-diseased) So, the sensitivity = TP / (TP + FN) = 27 / (27 + 3) = 0.9 or 90% And the specificity = TN / (TN + FP) = 95 / (95 + 5) = 0.95 or 95% Therefore, the answer is Sensitivity 90% and Specificity 95%. Let's match this with the options."
+]

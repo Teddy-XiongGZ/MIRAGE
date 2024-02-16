@@ -1,0 +1,3 @@
+[
+    "{\"step_by_step_thinking\": \"The formula for calculating the sample size in a study is n = (Z^2 * P * (1-P)) / E^2, where Z is the Z-score (which is 1.96 for a 95% confidence interval), P is the prevalence of the disease (which is 0.5 in this case), and E is the margin of error (which is 0.05 in this case, as the investigator is interested in the range of 45 to 55%). Plugging these values into the formula gives us n = (1.96^2 * 0.5 * (1-0.5)) / 0.05^2 = 384.16. Since we can't have a fraction of a person, we round this up to the nearest whole number, which is 385. However, this option is not available in the choices, so we choose the next highest option, which is 400.\", \"answer_choice\": \"D\"}"
+]
