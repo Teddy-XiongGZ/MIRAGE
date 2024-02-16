@@ -53,10 +53,12 @@ Statistics of datasets in MIRAGE are shown below:
 ## Benchmark Results
 
 The following table shows the benchmark results of different backbone LLMs.
+
 <img src="figs/result_llm.png" alt="Alt text" width="650"/>
 <!-- ![Alt text](figs/result_llm.png) -->
 
 This table shows the comparison of different corpora and retrievers on MIRAGE.
+
 <img src="figs/result_corpus_retriever.png" alt="Alt text" width="650"/>
 <!-- ![Alt text](figs/result_corpus_retriever.png) -->
 
