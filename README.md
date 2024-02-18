@@ -1,6 +1,6 @@
 # MIRAGE Benchmark
 
-Welcome to the GitHub page of `MIRAGE` Benchmark! This repository contains a comprehensive dataset and benchmark results aimed at evaluating retrieval-augmented generation (RAG) systems for medical question answering (QA). We use the [MedRAG](https://github.com/Teddy-XiongGZ/MedRAG) toolkit to evaluate existing solutions of various components in RAG on MIRAGE.
+Welcome to the GitHub page of `MIRAGE` (Medical Information Retrieval-Augmented Generation Evaluation) Benchmark! This repository contains a comprehensive dataset and benchmark results aimed at evaluating Retrieval-Augmented Generation (RAG) systems for medical question answering (QA). We use the [`MedRAG`](https://github.com/Teddy-XiongGZ/MedRAG) toolkit to evaluate existing solutions of various components in RAG on MIRAGE.
 
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)]()
 
