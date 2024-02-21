@@ -10,6 +10,7 @@ Welcome to the GitHub page of `MIRAGE` (Medical Information Retrieval-Augmented 
 - [Dataset](#dataset)
 - [Benchmark Results](#benchmark-results)
 - [Usage](#usage)
+- [Citation](#citation)
 
 ## Introduction
 
@@ -91,4 +92,14 @@ python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k
 
 # MedRAG-32 with GPT-4
 python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k --rag --k 32
+```
+
+## Citation
+```
+@article{xiong2024benchmarking,
+    title={Benchmarking Retrieval-Augmented Generation for Medicine}, 
+    author={Guangzhi Xiong and Qiao Jin and Zhiyong Lu and Aidong Zhang},
+    journal={arXiv preprint arXiv:2402.13178},
+    year={2024}
+}
 ```
