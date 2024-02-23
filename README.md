@@ -2,6 +2,8 @@
 
 Welcome to the GitHub page of `MIRAGE` (Medical Information Retrieval-Augmented Generation Evaluation) Benchmark! This repository contains a comprehensive dataset and benchmark results aimed at evaluating Retrieval-Augmented Generation (RAG) systems for medical question answering (QA). We use the [`MedRAG`](https://github.com/Teddy-XiongGZ/MedRAG) toolkit to evaluate existing solutions of various components in RAG on MIRAGE.
 
+The benchmark data is stored as `benchmark.json` in this repo, which can also be downloaded from [Google Drive](https://drive.google.com/file/d/1ryvimxhOJXVGpYEIY_eak9X_YVWz1Axd/view?usp=sharing).
+
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)]()
 
 ## Table of Contents
@@ -14,13 +16,13 @@ Welcome to the GitHub page of `MIRAGE` (Medical Information Retrieval-Augmented 
 
 ## Introduction
 
-For a realistic evalution purpose, MIRAGE adopts four key evaluation settings:
+For a realistic evaluation purpose, MIRAGE adopts four key evaluation settings:
 
 **Zero-Shot Learning (ZSL)**: Input QA systems are evaluated in a zero-shot setting where in-context few-shot learning is not permitted.
 
-**Multi-Choice Evaluation (MCE)**: Multi-choice Questions are used to evalute given systems. 
+**Multi-Choice Evaluation (MCE)**: Multi-choice Questions are used to evaluate given systems. 
 
-**Retrieval-Augmented Generation (RAG)**: Input systems should perform retrieval-augmented generation should, which need collect external information for accurate and reliable answer generation.
+**Retrieval-Augmented Generation (RAG)**: Input systems should perform retrieval-augmented generation, which need to collect external information for accurate and reliable answer generation.
 
 **Question-Only Retrieval (QOR)**: To align with real-world cases of medical QA, answer options should not be provided as input during the retrieval.
 
@@ -31,7 +33,7 @@ The following figure presents the overview of MIRAGE, which shows that MIRAGE co
 - [MMLU](https://github.com/hendrycks/test)-Med: A medical examination QA dataset with 1089 questions. A subset of six tasks that are related to biomedicine are selected from MMLU, including anatomy, clinical knowledge, professional medicine, human genetics, college medicine, and 996
 college biology. 
 - [MedQA](https://github.com/jind11/MedQA)-US: A medical examination QA dataset. We focus on the real-world English subset in MedQA with questions from the US Medical Licensing Examination (MedQA-US), including 1273 four-option test samples.
-- [MedMCQA](https://medmcqa.github.io/): A medical examination QA dataset. We choose the dev set of the original MedMCQA, which includs 4183 medical questions from Indian medical entrance exams.
+- [MedMCQA](https://medmcqa.github.io/): A medical examination QA dataset. We chose the dev set of the original MedMCQA, which includes 4183 medical questions from Indian medical entrance exams.
 - [PubMedQA](https://pubmedqa.github.io/)\*: A biomedical research QA dataset. We build PubMedQA\* by removing given contexts in the 500 expert-annotated test samples of PubMedQA. The possible answer to a PubMedQA* question can be yes/no/maybe, reflecting the authenticity of the question statement based on scientific literature.
 - [BioASQ](http://bioasq.org/)-Y/N: A biomedical research QA dataset. We select the Yes/No questions in the ground truth test set of BioASQ Task B from the most recent five years (2019-2023), including 618 questions in total. The ground truth snippets are removed in this benchmark.
 
