@@ -72,8 +72,10 @@
 
   <div class="row">
 
-        <div class="col-md-20 mt-4">
-                <table class="table table-striped" id="myTable" style="overflow-x: auto; width: 100%; justify-content: center;">
+        <div class="col-md-12 mt-4">
+            <!-- Wrapping div for horizontal scrolling -->
+            <div style="overflow-x: auto;">
+              <table class="table table-striped" id="myTable" style="width: 100%; max-width: 100%; justify-content: center;">
 
                   <!-- <thead class="thead-light"> -->
                   <thead>
@@ -179,7 +181,7 @@
                     <td scope="row" class='align-middle text-center border-right'>6<br>
                       <span class="badge badge-secondary"></span></td>
                     <td class='align-middle text-center border-right'>GPT-3.5 (CoT)<br/>
-                      <span class="affiliation">OpenAI</span><br/></td>
+                      <span class="affiliation">OpenAI</span><br/><a href="https://arxiv.org/abs/2005.14165" class="paperlink">(Brown et al., 2020)</a></td>
                     <td class='align-middle text-center'>GPT-3.5-16k-0613</td>
                     <td class='align-middle text-center'>--</td>
                     <td class='align-middle text-center border-right'>--</td>                      
@@ -294,6 +296,7 @@
                   </tr>
                 </tfoot>                
               </table>
+            </div>
 
   </div>
 </div>
