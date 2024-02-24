@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MIRAGE Leaderboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/mirage.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">MIRAGE</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://teddy-xionggz.github.io/benchmark-medical-rag/">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Leaderboard</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="https://arxiv.org/abs/2402.13178">Paper</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Teddy-XiongGZ/MIRAGE">Data</a>
+        </li>
+      </ul>
+    </div>    
+  </div>
+</nav>
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('img/background.webp')">
+  <div class="overlay" style="background-color: rgba(0,0,0,0.5);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1>MIRAGE</h1>
+          <span class="subheading">A Benchmark for Medical Information Retrieval-Augmented Generation Evaluation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    
+<!-- Main Content -->
+<div class="container" id="main">
+
+  <div class="row">
+
+        <div class="col-md-20 mt-4">
+                <table class="table table-striped" id="myTable" style="overflow-x: auto; width: 100%; justify-content: center;">
+
+                  <!-- <thead class="thead-light"> -->
+                  <thead>
+                  <tr>
+                    <th scope="col" rowspan=1 class="align-middle text-center border-right">Rank</th>
+                    <th scope="col" rowspan=1 class="align-middle text-center border-right">Model</th>
+                    <th scope="col" rowspan=1 class="align-middle text-center">LLM</th>
+                    <th scope="col" rowspan=1 class="align-middle text-center">Corpus</th>
+                    <th scope="col" rowspan=1 class="align-middle text-center border-right">Retriever</th>
+                    <th scope="col" colspan=1 class='align-middle text-center'>MMLU-Med (%)</th>
+                    <th scope="col" colspan=1 class='align-middle text-center'>MedQA-US (%)</th>
+                    <th scope="col" colspan=1 class='align-middle text-center'>MedMCQA (%)</th>
+                    <th scope="col" colspan=1 class='align-middle text-center'>PubMedQA* (%)</th>
+                    <th scope="col" colspan=1 class='align-middle text-center border-right'>BioASQ-Y/N (%)</th>
+                    <th scope="col" colspan=1 class='align-middle text-center'>Average</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+        
+        
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>1<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>GPT-4 (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>GPT-4-32k-0613</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>
+                    <td class='align-middle text-center'>87.24</td>
+                    <td class='align-middle text-center'>82.80</td>
+                    <td class='align-middle text-center'>66.65</td>
+                    <td class='align-middle text-center'>70.60</td>
+                    <td class='align-middle text-center border-right'>92.56</td>
+                    <td class='align-middle text-center'>79.97</td>
+                  </tr>
+        
+        
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>2<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>GPT-4 (CoT)<br/>
+                      <span class="affiliation">OpenAI</span><br/><a href="https://arxiv.org/abs/2303.08774" class="paperlink">(OpenAI et al., 2023)</a></td>
+                    <td class='align-middle text-center'>GPT-4-32k-0613</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>
+                    <td class='align-middle text-center'>89.44</td>
+                    <td class='align-middle text-center'>83.97</td>
+                    <td class='align-middle text-center'>69.88</td>
+                    <td class='align-middle text-center'>39.60</td>
+                    <td class='align-middle text-center border-right'>84.30</td>
+                    <td class='align-middle text-center'>73.44</td>
+                  </tr>
+        
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>3<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>GPT-3.5 (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>GPT-3.5-16k-0613</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>                      
+                    <td class='align-middle text-center'>75.48</td>
+                    <td class='align-middle text-center'>66.61</td>
+                    <td class='align-middle text-center'>58.04</td>
+                    <td class='align-middle text-center'>67.40</td>
+                    <td class='align-middle text-center border-right'>90.29</td>
+                    <td class='align-middle text-center'>71.57</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>4<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>Mixtral (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>Mixtral-8x7B</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>                      
+                    <td class='align-middle text-center'>75.85</td>
+                    <td class='align-middle text-center'>60.02</td>
+                    <td class='align-middle text-center'>56.42</td>
+                    <td class='align-middle text-center'>67.60</td>
+                    <td class='align-middle text-center border-right'>87.54</td>
+                    <td class='align-middle text-center'>69.48</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>5<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>Mixtral (CoT)<br/>
+                      <span class="affiliation">Mistral AI</span><br/><a href="https://arxiv.org/abs/2401.04088" class="paperlink">(Jiang et al., 2024)</a></td>
+                    <td class='align-middle text-center'>Mixtral-8x7B</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>                      
+                    <td class='align-middle text-center'>74.01</td>
+                    <td class='align-middle text-center'>64.10</td>
+                    <td class='align-middle text-center'>56.28</td>
+                    <td class='align-middle text-center'>35.20</td>
+                    <td class='align-middle text-center border-right'>77.51</td>
+                    <td class='align-middle text-center'>61.42</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>6<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>GPT-3.5 (CoT)<br/>
+                      <span class="affiliation">OpenAI</span><br/></td>
+                    <td class='align-middle text-center'>GPT-3.5-16k-0613</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>                      
+                    <td class='align-middle text-center'>72.91</td>
+                    <td class='align-middle text-center'>65.04</td>
+                    <td class='align-middle text-center'>55.25</td>
+                    <td class='align-middle text-center'>36.00</td>
+                    <td class='align-middle text-center border-right'>74.27</td>
+                    <td class='align-middle text-center'>60.69</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>7<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>MEDITRON (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>MEDITRON-70B</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>                      
+                    <td class='align-middle text-center'>65.38</td>
+                    <td class='align-middle text-center'>49.57</td>
+                    <td class='align-middle text-center'>52.67</td>
+                    <td class='align-middle text-center'>56.40</td>
+                    <td class='align-middle text-center border-right'>76.86</td>
+                    <td class='align-middle text-center'>60.18</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>8<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>MEDITRON (CoT)<br/>
+                      <span class="affiliation">EPFL</span><br/><a href="https://arxiv.org/abs/2311.16079" class="paperlink">(Chen et al., 2023)</a></td>
+                    <td class='align-middle text-center'>MEDITRON-70B</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>                      
+                    <td class='align-middle text-center'>64.92</td>
+                    <td class='align-middle text-center'>51.69</td>
+                    <td class='align-middle text-center'>46.74</td>
+                    <td class='align-middle text-center'>53.40</td>
+                    <td class='align-middle text-center border-right'>68.45</td>
+                    <td class='align-middle text-center'>57.04</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>9<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>Llama2 (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>PMC-LLaMA-13B</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>                      
+                    <td class='align-middle text-center'>54.55</td>
+                    <td class='align-middle text-center'>44.93</td>
+                    <td class='align-middle text-center'>43.08</td>
+                    <td class='align-middle text-center'>50.40</td>
+                    <td class='align-middle text-center border-right'>73.95</td>
+                    <td class='align-middle text-center'>53.38</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>10<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>PMC-LLaMA (MedRAG)<br/>
+                      <span class="affiliation">UVa & NIH</span><br/><a href="https://arxiv.org/abs/2402.13178" class="paperlink">(Xiong et al., 2024)</a></td>
+                    <td class='align-middle text-center'>PMC-LLaMA-13B</td>
+                    <td class='align-middle text-center'>MedCorp</td>
+                    <td class='align-middle text-center border-right'>RRF-4</td>                      
+                    <td class='align-middle text-center'>52.53</td>
+                    <td class='align-middle text-center'>42.58</td>
+                    <td class='align-middle text-center'>48.29</td>
+                    <td class='align-middle text-center'>56.00</td>
+                    <td class='align-middle text-center border-right'>65.21</td>
+                    <td class='align-middle text-center'>52.92</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>11<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>PMC-LLaMA (CoT)<br/>
+                      <span class="affiliation">SJTU</span><br/><a href="https://arxiv.org/abs/2304.14454" class="paperlink">(Wu et al., 2023)</a></td>
+                    <td class='align-middle text-center'>Llama2-70B</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>                      
+                    <td class='align-middle text-center'>52.16</td>
+                    <td class='align-middle text-center'>44.38</td>
+                    <td class='align-middle text-center'>46.55</td>
+                    <td class='align-middle text-center'>55.80</td>
+                    <td class='align-middle text-center border-right'>63.11</td>
+                    <td class='align-middle text-center'>52.40</td>
+                  </tr>
+                  
+                  <tr>
+                    <td scope="row" class='align-middle text-center border-right'>12<br>
+                      <span class="badge badge-secondary"></span></td>
+                    <td class='align-middle text-center border-right'>Llama2 (CoT)<br/>
+                      <span class="affiliation">Meta</span><br/><a href="https://arxiv.org/abs/2307.09288" class="paperlink">(Touvron et al., 2023)</a></td>
+                    <td class='align-middle text-center'>Llama2-70B</td>
+                    <td class='align-middle text-center'>--</td>
+                    <td class='align-middle text-center border-right'>--</td>                      
+                    <td class='align-middle text-center'>57.39</td>
+                    <td class='align-middle text-center'>47.84</td>
+                    <td class='align-middle text-center'>42.60</td>
+                    <td class='align-middle text-center'>42.20</td>
+                    <td class='align-middle text-center border-right'>61.17</td>
+                    <td class='align-middle text-center'>50.24</td>
+                  </tr>
+                  
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="11"></td>
+                  </tr>
+                </tfoot>                
+              </table>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+
+    <!-- <hr> -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Webpage template kindly provided by the HotpotQA and PubMedQA teams.</p>
+            <p class="copyright text-muted">Theme adapted from Start Bootstrap's <a href="https://startbootstrap.com/theme/clean-blog">Clean Blog</a> template.</p>
+            <p class="copyright text-muted">Leaderboard maintained by Guangzhi Xiong. Last update: 2024-2-23.</p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          var originalRows = $('#myTable tbody tr').clone(); // Clone the original rows to restore later
+      
+          // Initialize arrow indicators for sortable columns
+          $('#myTable th').each(function(index) {
+              if(index !== 0 && index !== 1 && index !== 2 && index !== 3 && index !== 4) {
+                  $(this).append('<span class="sort-indicator"><i class="fa fa-arrow-up" style="color: #ccc;"></i><i class="fa fa-arrow-down" style="color: #ccc;"></i></span>');
+              }
+          });
+      
+          // Function to sort table based on column
+          function sortTable(sortDirection, columnIndex){
+              var rows = $('#myTable tbody tr').get();
+      
+              rows.sort(function(a, b) {
+                  var valA = $(a).children('td').eq(columnIndex).text().toUpperCase();
+                  var valB = $(b).children('td').eq(columnIndex).text().toUpperCase();
+                  if($.isNumeric(valA) && $.isNumeric(valB)) {
+                      valA = parseFloat(valA);
+                      valB = parseFloat(valB);
+                  }
+                  return (sortDirection === "asc" ? (valA > valB ? 1 : -1) : (valA < valB ? 1 : -1));
+              });
+      
+              $.each(rows, function(index, row) {
+                  $('#myTable tbody').append(row);
+              });
+          }
+      
+          // Event listener for each column header
+          $('#myTable th').each(function(columnIndex) {
+              // Skip sorting functionality for specific columns by index
+              if(columnIndex === 0 || columnIndex === 1 || columnIndex === 2 || columnIndex === 3 || columnIndex === 4) return;
+              
+              $(this).on('click', function() {
+                  var sortState = $(this).data('sortState') || 'unsorted';
+                  // Reset arrows for all columns
+                  $('.sort-indicator i').css('color', '#ccc');
+                  switch(sortState) {
+                      case 'unsorted':
+                          sortTable('desc', columnIndex);
+                          $(this).data('sortState', 'desc');
+                          $(this).find('.fa-arrow-up').css('color', 'black');
+                          break;
+                      case 'desc':
+                          sortTable('asc', columnIndex);
+                          $(this).data('sortState', 'asc');
+                          $(this).find('.fa-arrow-down').css('color', 'black');
+                          break;
+                      case 'asc':
+                          $('#myTable tbody').html(originalRows); // Reset to original rows
+                          $(this).data('sortState', 'unsorted');
+                          // Arrows remain transparent as the table is in its original state
+                          break;
+                  }
+                  // Ensure only the clicked column shows the active sort direction
+                  $('#myTable th').not(this).data('sortState', 'unsorted');
+              });
+          });
+      });
+      </script>
+      
+      
+          
+
+  </body>
+
+</html>
