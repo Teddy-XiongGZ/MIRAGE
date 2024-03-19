@@ -71,16 +71,22 @@ This table shows the comparison of different corpora and retrievers on MIRAGE.
 
 Load the benchmark:
 ```python
-import json
-benchmark = json.load(open("benchmark.json"))
+>>> import json
+>>> benchmark = json.load(open("benchmark.json"))
 ```
 
 Load specific datasets in the benchmark (e.g., mmlu):
 ```python
-from src.utils import QADataset
+>>> from src.utils import QADataset
 
-dataset_name = "mmlu"
-dataset = QADataset(dataset_name)
+>>> dataset_name = "mmlu"
+>>> dataset = QADataset(dataset_name)
+
+>>> print(len(dataset))
+1089
+
+>>> print(dataset[0])
+{'question': 'A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral', 'options': {'A': 'paralysis of the facial muscles.', 'B': 'paralysis of the facial muscles and loss of taste.', 'C': 'paralysis of the facial muscles, loss of taste and lacrimation.', 'D': 'paralysis of the facial muscles, loss of taste, lacrimation and decreased salivation.'}, 'answer': 'A'}
 ```
 
 Evaluate prediction results saved in `./prediction` for both CoT generation and RAG with 32 snippets:
