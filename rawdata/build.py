@@ -23,14 +23,16 @@ def load_data(data):
         dataset = {key:{
             "question": value["QUESTION"], 
             "options": {"A": "yes", "B": "no", "C": "maybe"}, 
-            "answer": answer_list[["yes","no","maybe"].index(value["final_decision"])]
+            "answer": answer_list[["yes","no","maybe"].index(value["final_decision"])],
+            "PMID": [int(key)]
             } for key,value in dataset.items()}
     elif data == "bioasq": # 618
         dataset = [item for i in [11,10,9,8,7] for j in range(len([f for f in os.listdir("bioasq/Task{:d}BGoldenEnriched".format(i)) if f.endswith(".json")])) for item in json.load(open("bioasq/Task{:d}BGoldenEnriched/{:d}B{:d}_golden.json".format(i, i, j+1)))["questions"] if item["type"] == "yesno"]
         dataset = {item["id"]:{
             "question": item["body"], 
             "options": {"A": "yes", "B": "no"}, 
-            "answer": answer_list[["yes","no"].index(item["exact_answer"].lower())]
+            "answer": answer_list[["yes","no"].index(item["exact_answer"].lower())],
+            "PMID": [int(s.split('/')[-1]) for s in item["documents"]]
             } for item in dataset}
     elif data == "mmlu": # 1089
         dataset = {}
