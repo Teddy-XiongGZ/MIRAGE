@@ -4,6 +4,11 @@ Welcome to the GitHub page of `MIRAGE` (Medical Information Retrieval-Augmented 
 
 The benchmark data is stored as `benchmark.json` in this repo, which can also be downloaded from [Google Drive](https://drive.google.com/file/d/1ryvimxhOJXVGpYEIY_eak9X_YVWz1Axd/view?usp=sharing).
 
+Snippet ids of the top 10k snippets for each task in `MIRAGE` retrieved by all retrievers in `MedRAG` can be downloaded with
+```shell
+wget -O retrieved_snippets_10k.zip https://virginia.box.com/shared/static/cxq17th6eisl2pn04vp0x723zczlvlzc.zip
+```
+
 [![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://arxiv.org/abs/2402.13178)
 [![Homepage](https://img.shields.io/badge/homepage-available-blue)](https://teddy-xionggz.github.io/benchmark-medical-rag/)
 [![Leaderboars](https://img.shields.io/badge/leaderboard-available-blue)](https://teddy-xionggz.github.io/MIRAGE/)
