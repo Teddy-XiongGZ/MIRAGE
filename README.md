@@ -19,6 +19,7 @@ wget -O retrieved_snippets_10k.zip https://virginia.box.com/shared/static/cxq17t
 - [Dataset](#dataset)
 - [Benchmark Results](#benchmark-results)
 - [Usage](#usage)
+- [Submission](#submission)
 - [Citation](#citation)
 
 ## Introduction
@@ -108,6 +109,13 @@ python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k
 # MedRAG-32 with GPT-4
 python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k --rag --k 32
 ```
+
+## Submission
+
+To submit results of your new system on the [Leaderboard](https://teddy-xionggz.github.io/MIRAGE/), please send an email to Guangzhi Xiong (hhu4zu@virginia.edu) with
+- The name of your system and its components
+- Performance of the system on different subtasks & Average performance
+- A reference link to your results
 
 ## Citation
 ```
