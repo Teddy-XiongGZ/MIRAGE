@@ -24,7 +24,7 @@ def evaluate(dataset, save_dir, split="test", locate_fun=locate_answer):
         answers = []
         for it in json.load(open(fpath))[:1]:
             answers.append(locate_fun(it.split('"answer_choice": "')[-1].strip()))
-        answers.append(locate_fun(it.split('"answer_choice": "')[-1].strip()))
+        # answers.append(locate_fun(it.split('"answer_choice": "')[-1].strip()))
         answers = [ans for ans in answers if ans != "NA"]
         if len(answers) == 0:
             pred.append(-1)
